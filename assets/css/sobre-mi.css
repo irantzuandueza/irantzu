@@ -1,0 +1,358 @@
+body{
+    background-color: #ee8606;
+    height: 100vh;
+}
+
+.nav-bar-fondo {
+    width: 100%;
+    height: 125px;
+    background-color: transparent;
+    position: fixed;
+    z-index: 2;
+}
+
+
+
+h2 {
+    font-size: 60px;
+    color: #fff8df;
+    font-family: Comfortaa;
+    margin:0px 0px 15px 0px;
+}
+
+/* introduccion */
+.sobre-mi-introduccion {
+    padding: 180px 150px 80px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre-mi-intro-texto {
+    margin-left: 40px;
+    max-width: 600px;
+}
+
+.sobre-mi-intro-texto-p {
+    font-family: "roboto", "sans-serif";
+    color: #fff8df;
+    font-size: 24px;
+}
+
+p {
+    margin: 0px;
+}
+
+
+
+.foto-mia {
+    max-width: 600px;
+    border-radius: 16px;
+    z-index: -1;
+}
+
+
+/* explicacion */
+.explicacion{
+    padding: 180px 150px 80px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.explicacion-intro-texto{
+    max-width: 600px;
+    margin-right: 40px;
+}
+
+.explicacion-texto-p{
+    font-family: "roboto", "sans-serif";
+    color: #fff8df;
+    font-size: 24px;
+}
+
+.luna {
+    max-height: 600px;
+    border-radius: 16px;
+}
+
+/* curriculum */
+.curriculum {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+/* habilidades */
+.habilidades {
+    display: flex;
+    align-items: center;
+}
+
+.habilidades-especificas {
+    margin-left: 80px;
+}
+
+.titulo-habilidades {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 60px;
+    margin: 0px;
+    color: #fff8df;
+    font-family: comfortaa;
+    z-index: -1;
+}
+
+h4 {
+    font-family: Comfortaa;
+    color: #fff8df;
+    margin: 0px 0px 15px 0px;
+}
+
+.barra {
+    width: 300px;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #fff8df;
+    margin-bottom: 24px;
+}
+
+.adobe {
+    width: 90%;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #72272f;
+}
+
+.programacion {
+    width: 70%;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #72272f;
+}
+
+.figma {
+    width: 80%;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #72272f;
+}
+
+.web-designer {
+    width: 70%;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #72272f;
+}
+
+.blender {
+    width: 70%;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #72272f;
+}
+
+.ingles {
+    width: 90%;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #72272f;
+}
+
+.frances {
+    width: 50%;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #72272f;
+}
+
+.trayectoria {
+    display: flex;
+    align-items: center;
+}
+
+.trayectoria img{
+    width: 380px;
+    margin-left: 80px;
+}
+
+
+
+
+/* mediaqueries */
+
+@media screen and (max-width: 1200px){
+    /* introduccion */
+    .sobre-mi-introduccion {
+        padding: 150px 55px 80px 55px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .sobre-mi-intro-texto {
+        margin-left: 40px;
+        max-width: 800px;
+    }
+    
+    .sobre-mi-intro-texto-p {
+        font-family: "roboto", "sans-serif";
+        color: #fff8df;
+        font-size: 20px;
+    }
+    
+    p {
+        margin: 0px;
+    }
+    
+    .foto-mia {
+        max-width: 400px;
+        border-radius: 16px;
+    }
+
+    /* explicacion */
+    .explicacion{
+        padding: 150px 55px 80px 55px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .explicacion-intro-texto{
+        max-width: 800px;
+        margin-right: 40px;
+    }
+
+    .explicacion-texto-p{
+        font-family: "roboto", "sans-serif";
+        color: #fff8df;
+        font-size: 20px;
+    }
+    
+    .luna {
+        max-height: 400px;
+        border-radius: 16px;
+    }
+}
+
+
+
+@media screen and (max-width: 800px){
+    .nav-bar-fondo {
+        width: 100%;
+        height: 105px;
+        background-color: #ee8606;
+        position: fixed;
+    }
+
+    h2 {
+        font-size: 40px;
+        color: #fff8df;
+        font-family: Comfortaa;
+        margin:0px 0px 15px 0px;
+        text-align: center;
+    }
+    
+    /* introduccion */
+    .sobre-mi-introduccion {
+        padding: 150px 30px 80px 30px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        /* flex-direction: column; */
+        align-items: center;
+       
+        /* justify-content: space-between; */
+    }
+
+    .foto-mia {
+        max-width: 315px;
+        border-radius: 16px;
+        margin-top: 40px;
+        
+    }
+
+    .sobre-mi-intro-texto {
+        margin-left: 0px;
+        max-width: 800px;
+    }
+
+    .sobre-mi-intro-texto-p {
+        font-family: "roboto", "sans-serif";
+        color: #fff8df;
+        font-size: 16px;
+    }
+
+    /* explicacion */
+    .explicacion{
+        padding: 60px 30px 80px 30px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        /* justify-content: space-between; */
+    }
+
+    .explicacion-intro-texto{
+        margin-right: 0px;
+        max-width: 800px;
+    }
+
+    .explicacion-texto-p {
+        font-family: "roboto", "sans-serif";
+        color: #fff8df;
+        font-size: 16px;
+    }
+    
+    .luna {
+        max-height: 400px;
+        border-radius: 16px;
+        margin-top: 40px;
+        margin-left: 10%;
+    }
+
+    /* habilidades */
+    .curriculum {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .habilidades {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .habilidades-especificas {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    
+    .titulo-habilidades {
+        writing-mode: horizontal-tb;
+        transform: rotate(0deg);
+        font-size: 40px;
+        margin: 0px;
+        color: #fff8df;
+        font-family: comfortaa;
+        z-index: -1;
+    }
+
+    .trayectoria {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .trayectoria img{
+        width: 300px;
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+}
+
+.nav-bar-fondo-transparente {
+    background: #72272e00;
+    mix-blend-mode: normal;
+  }
